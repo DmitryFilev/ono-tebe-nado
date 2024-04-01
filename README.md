@@ -1,1 +1,1 @@
-Курсовая работа по Спринт1
+https://github.com/DmitryFilev/ono-tebe-nado

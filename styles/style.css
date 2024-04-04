@@ -13,16 +13,13 @@
     padding-top:2px;
 }
 
-li.header__links-list-item{
+.header__links-list-item{
     padding-left: 8px;
     padding-right: 24px;
+    list-style: circle;
 }
 
-li.header__links-list-item::marker{
-    content: "○";
-}
-
-li.header__links-list-item_no-bullit{
+.header__links-list-item_no-bullit{
     list-style: none;
     padding-right: 24px;
 }
@@ -43,6 +40,7 @@ li.header__links-list-item_no-bullit{
     font-family: Raleway, sans-serif;
     font-weight: 400;
     font-size: 18px;
+    line-height: 1.4em;
 }
 
 .header .address{
@@ -50,12 +48,8 @@ li.header__links-list-item_no-bullit{
     margin-left: 182px;
 }
 
-.header__contact{
-    padding-bottom: 1px;
-    line-height: 1.4em;
-}
-
 .header__address{
+    padding-top:1px;
     line-height: 1.3em;   
 }
 
@@ -73,6 +67,8 @@ li.header__links-list-item_no-bullit{
     height: 100%;
     background-color: rgb(0 0 0/.6);
     z-index: -1;
+    object-fit: cover;
+    object-position: center;
 }
 
 .cover__title{
@@ -169,6 +165,8 @@ margin-top: 180px;
     background-position: center;
     color: white;
     z-index: 0;
+    background-position: center;
+    background-size: cover;
 }
 
 .lots__menu{
@@ -267,7 +265,7 @@ margin-top: 180px;
     font-size: 40px;
     font-weight: bold; 
     text-transform: uppercase;
-    align-self:first baseline;/* более красивое решение через align-center,но не совпадает с макетом*/
+    align-self:first baseline;
     padding-top:100px;
 }
 
@@ -287,15 +285,11 @@ margin-top: 180px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     width: 1100px;
-    padding-top: 5px;
+    padding: 5px 0 91px;
 }
 
 .footer .address{
 padding-left:50px;
-}
-
-.footer__contact{
-    line-height: 1.4em;
 }
 
 .footer__address{

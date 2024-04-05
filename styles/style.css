@@ -14,14 +14,14 @@
 }
 
 .header__links-list-item{
-    padding-left: 8px;
-    padding-right: 24px;
-    list-style: circle;
+    padding-left: 0px;
+    padding-right: 32px;
+    list-style: outside circle;
 }
 
 .header__links-list-item_no-bullit{
     list-style: none;
-    padding-right: 24px;
+    padding-right: 32px;
 }
 
 .header__link_active{
